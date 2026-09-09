@@ -7,3 +7,6 @@ string_length = len(user_string)
 
 print("You entered:", user_string)
 print("The length of the string you entered is:", string_length)
+
+half_length = string_length // 2
+print("Half of the string is:", half_length, "characters.")
