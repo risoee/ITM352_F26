@@ -24,3 +24,8 @@ def max(number1, number2):
 # Return the smaller of two numbers.
 def min(number1, number2):
     return number1 if number1 < number2 else number2
+
+
+# Apply a two-number function and describe the result.
+def describe_function(x, y, function):
+    return f"The function {function.__name__} {x},{y} = {function(x, y)}"
